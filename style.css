@@ -11,6 +11,13 @@
 body{
   max-width: 1680px;
   margin: 0 auto;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
 }
 .sidenav{
     /* From https://css.glass */
@@ -211,7 +218,7 @@ body{
   background-image: linear-gradient(to right, #434343 0%, black 100%);
 }
 
-.btn-floating{
+.btn-floating-avcb{
   background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 }
 
@@ -524,7 +531,7 @@ hr {
 .anuncio-avcb{
   margin-top: 10px;
   margin-bottom: 15px;
-  background-color: #ffffff9d;
+  background-color: #ffffff91;
   letter-spacing: 1px;
   font-weight: 500;
   padding: 15px;
