@@ -15,8 +15,7 @@
     <link rel="icon" href="http://www.fjobras.com.br/favicon.ico" type="image/x-icon" />
     <title>FJ engenharia</title>
 </head>
-<body>
-    
+<body>  
 <!-- menu Sidenav-->
 <header class="menu-principal">
     <div class="navbar-fixed">
@@ -49,7 +48,6 @@
       <li><a class="text white-text"  href="#contato">Contato</a></li>
     </ul>
   </header>
-
   <!--- Main-->
   <section class="main" id="home">
     <div class="anuncio">
@@ -57,7 +55,6 @@
         <button class="botao">Saiba como</button>
     </div>
   </section>
-
       <!--- second main financiamento -->
   <div class="col s12 m7 offset-l3">
     <div class="card horizontal">
@@ -83,29 +80,28 @@
     <ul class="slides">
       <li>
         <img src="https://images.pexels.com/photos/260367/pexels-photo-260367.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"> <!-- random image -->
-        <div class="slin caption center-align">
-          <h3 class="light-texto">AVCB</h3>
-          <h5 class="light-texto grey-text text-lighten-3">documento que certifica que, durante a vistoria, a edificação possuía as condições de segurança contra incêndio previstas pela legislação e constantes no processo.</h5>
+        <div class="slin caption left-align">
+          <h3 class="light-texto grey-text text-darken-2">AVCB</h3>
+          <h5 class="light-texto grey-text text-darken-4">documento que certifica que, durante a vistoria, a edificação possuía as condições de segurança contra incêndio <br> previstas pela legislação e constantes no processo.</h5>
         </div>
       </li>
       <li>
         <img src="casa300m.jpg"> <!-- random image -->
-        <div class="caption left-align black-text">
+        <div class="caption left-align grey-text text-lighten-4">
           <h3>SOBRADO</h3>
-          <h5 class="light grey-text text-lighten-3">Do planejamento ao acabamento</h5>
         </div>
       </li>
       <li>
         <img src="https://images.pexels.com/photos/280076/pexels-photo-280076.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"> <!-- random image -->
-        <div class="caption right-align black-text">
+        <div class="caption right-align grey-text text-lighten-3">
           <h3>AVCB / CLCB / SPDA</h3>
-          <h5 class="light grey-text text-lighten-3">Projeto de incêndio</h5>
+          <h5 class="light grey-text text-darken-2">Projeto de incêndio</h5>
           <h5 class="light grey-text text-lighten-3"><a href="avcb.html" class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">add</i></a></h5>
         </div>
       </li>
       <li>
         <img src="casaCubo.jpg"> <!-- random image -->
-        <div class="caption left-align black-text">
+        <div class="caption left-align grey-text text-darken-1">
           <h3>CASA CUBO</h3>
         </div>
       </li>
@@ -151,31 +147,24 @@
     <br><br>
   </div>
 </section>
-
 <!-- contato-->
 <section class="contato" id="contato">
   <section id="contact">
     <h1 class="section-header">Contato</h1>
     <div class="contact-wrapper">
       <!-- Left contact page --> 
-      <form id="contact-form" class="form-horizontal" role="form"> 
-        <div class="form-group">
-          <div class="col-sm-12">
-            <input type="text" class="form-control" id="name" placeholder="NOME" name="name" value="" required>
-          </div>
-        </div>
-        <div class="form-group">
-          <div class="col-sm-12">
-            <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
-          </div>
-        </div>
-        <textarea class="form-control" rows="10" placeholder="MENSAGEM" name="message" required></textarea>
-        <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
-          <div class="alt-send-button">
-            <i class="fa fa-paper-plane"></i><span class="send-text">ENVIAR</span>
-          </div>
-        </button>
-      </form>
+      <div  class="form-horizontal" role="form">
+        <form method="post" action="https://formsubmit.co/edihany@gmail.com" id="form">
+          <input type="text" class="nome" id="nome" name="nome" placeholder="Nome">
+          <input type="text" class="telefone" id="telefone" name="telefone" placeholder="Telefone">
+          <textarea name="mensagem" id="mensagem" cols="" rows="" placeholder="Mensagem"></textarea>
+          <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+            <div class="alt-send-button">
+              <i class="fa fa-paper-plane"></i><span class="send-text">ENVIAR</span>
+            </div>
+          </button>
+        </form>
+      </div>
       <!-- Left contact page --> 
       <div class="direct-contact-container">
         <ul class="contact-list">
@@ -205,8 +194,7 @@
         <p class="grey-text ">Somos uma empresa séria com ideais e valores, atuante no ramo da Construção Civil e Projetos há mais de 20 anos. Temos como objetivo transformar projetos em realidade, visando sempre qualidade do serviço e os prazos. <br> Garantimos um orçamento justo e honesto que cabe no seu bolso. Contamos com uma equipe capacitada e experiênte. <br> 
       </div>
       <div class="col l4 offset-l2 s12">
-        <h5 class="amber-text">Responsáveis técnicos:</h5>
-        <br>
+        <h6 style="padding: 4px;" class="amber-text">Responsáveis técnicos:</h6>
       <p class="grey-text consideracoes"> ENGENHEIRO CIVÍL: Francisco Machado.<br> ENGENHEIRO CIVÍL:  Expedito Silva.<br> ARQUITETO: Fayriston Lima.</p> <br>
 
       </div>
@@ -214,7 +202,7 @@
   </div>
   <div class="footer-copyright grey darken-4">
     <div class="container grey-text center">
-    © 2022 FJ engenharia - Todos os direitos reservados.
+    <p> © 2022 FJ engenharia - Todos os direitos reservados.</p>
     <p class="grey-text">desenvolvido por <a href="#">Anne Silva</a></p>
     </div>
   </div>

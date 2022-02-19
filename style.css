@@ -115,7 +115,7 @@ body{
         }
         .main{
             height: 500px;
-            background-image: url('https://images.pexels.com/photos/374023/pexels-photo-374023.jpeg?cs=srgb&dl=pexels-burst-374023.jpg&fm=jpg');
+            background-image: url('https://cdn.pixabay.com/photo/2017/08/27/10/16/interior-2685521_960_720.jpg');
             background-size: cover;
         }
         .anuncio{ 
@@ -234,12 +234,7 @@ body{
 
 
 .slin{
-  background-image: linear-gradient(to right, #f836008a 0%, #f9d52385 100%);
-  backdrop-filter: blur(3px);  
-  border: 1px solid rgb(110, 110, 110);  
-  color: #ffffff;     
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.055);  
-  transition: all .4s;
+  background-color: #ffffff71;
   padding: 10px;
   letter-spacing: 1px;
 }
@@ -258,12 +253,11 @@ border: solid 2px #000000;
 
 /* CONTATO */
 #contact {
-  border: solid 3px #000000;
   margin-bottom: 30px;
   border-radius: 20px;
   padding: 3px 3px 3px 3px;
   margin: 10px 20px;
-  background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
+
 }
 
 .contact-wrapper {
@@ -274,11 +268,19 @@ border: solid 2px #000000;
   padding: 20px;
   position: relative;
   max-width: 840px;
+  background-image: linear-gradient(to top, #c4c5c7ca 0%, #dcdddfa8 52%, #ebebeb 100%);
+  border: solid 3px #adadad;
+  margin-bottom: 30px;
+  border-radius: 20px;
 }
 
 /* Left contact page */
+.placeholder{
+  color: red;
+}
 .form-horizontal {
   /*float: left;*/
+  padding-top: 10px;
   max-width: 350px;
   font-weight: 400;
 }
@@ -298,6 +300,7 @@ textarea {
   transition: all .2s ease-in-out;
   color: #ffffff;
   background: #000000;
+  border-radius: 0  0 8px 8px;
 }
 
 .alt-send-button {
@@ -521,15 +524,12 @@ hr {
 .anuncio-avcb{
   margin-top: 10px;
   margin-bottom: 15px;
-  background-color: #352c2c7e;
+  background-color: #ffffff9d;
   letter-spacing: 1px;
   font-weight: 500;
   padding: 15px;
   border-radius: 20px;  
-  backdrop-filter: blur(3px);  
   border: 1px solid rgb(110, 110, 110);     
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.055);  
-  transition: all .4s;
 
 }
 .caixa-btn-avcb{
@@ -542,3 +542,5 @@ hr {
   background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
  background-blend-mode: screen;
 }
+
+/* footer*/

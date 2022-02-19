@@ -2,6 +2,16 @@
 src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"
 // Materialize JavaScript -->
 src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"
+
+
+
+
+
+
+
+
+
+
 //menu Sidenav
 $(document).ready(function(){
     $('.sidenav').sidenav();
