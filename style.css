@@ -39,39 +39,57 @@ main {
         .logo {
           width: 280px;
         }
-        .main{
-            height: 550px;
-            background-image: url('https://cdn.pixabay.com/photo/2017/08/27/10/16/interior-2685521_960_720.jpg');
-            background-size: cover;
+
+         /*vídeo-main*/
+        .video-container {
+
+          position: relative;
+          overflow: hidden;
         }
+
+        video {
+          object-fit: cover;
+          position: absolute;
+          height: 95vh;
+          width: 100%;
+          top: 0;
+          left: 0;
+        }
+
+
+        
         .anuncio{ 
             width: 50%;
-            border-radius: 30px;  
-            background: rgba(180, 180, 180, 0.452);  
-            backdrop-filter: blur(3px);  
-            border: 1px solid rgb(110, 110, 110);  
-            color: rgb(253, 253, 253);     
-            box-shadow: 0 0 30px rgba(0, 0, 0, 0.055);  
-            transition: all .4s;
-            text-align: center;  
-            padding: 15px 0;
+            border-radius: 10px;  
+            background: rgba(0, 0, 0, 0.164);  
+            text-align: center; 
+            padding: 15px 0;            
+            position: relative; 
+            align-items: center;
+            display: flex; justify-content: center; 
+            margin-top: 15%; flex-direction: column;
         }
         .anuncio p{
           text-transform: uppercase;
             font-size: 30px;
             font-weight: 500;
-            color: rgb(0, 0, 0);
+            color: #ffc107;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
         .botao{
-            background-color: #ffc107;
+            border: solid 2px #ffc107;
+            border-radius: 10px;
+            background-image: linear-gradient(to right, #f9d423 0%, #a07501 100%);
             color: black;
             font-weight: 500;
             border-radius: 10px;
-            padding: 10px 15px;
+            padding: 15px 45px;
             margin-top: 5px;
             cursor: pointer;
+            margin-top: 20px;
         }
+
+
         .titulo-financiamento{
           display: flex;
           justify-content: center;
@@ -81,6 +99,7 @@ main {
           font-weight: 600;
           padding: 0 10px 10px 10px;
         }
+        /*projetos*/
         .projetos-titulo{
           display: flex;
           justify-content: center;
@@ -101,7 +120,7 @@ main {
           margin: 30px 0;
 
         }
-
+        /* contato*/
         .section-header {
           display: flex;
           align-items: center;
@@ -120,26 +139,50 @@ main {
           width: 250px;
 
         }
-        .main{
-            height: 500px;
-            background-image: url('https://cdn.pixabay.com/photo/2017/08/27/10/16/interior-2685521_960_720.jpg');
-            background-size: cover;
+
+          /*vídeo-main*/
+        .video-container {
+          height: 500px;
+          position: relative;
+          overflow: hidden;
         }
+
+        video {
+          object-fit: cover;
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          top: 0;
+          left: 0;
+        }
+
+        .video-container:after {
+          content: '';
+          display: block;
+          height: 100%;
+          width: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background: rgba(black, .2);
+          z-index: 1;
+        }
+
         .anuncio{ 
             width: 90%;
             border-radius: 10px;  
-            background: rgba(255, 255, 255, 0.089);  
-            backdrop-filter: blur(3px);  
-            border: 1px solid rgb(110, 110, 110);  
-            box-shadow: 0 0 30px rgba(255, 255, 255, 0.322);  
-            transition: all .4s;
+            background: rgba(59, 59, 59, 0.328);  
             text-align: center;  
             padding: 10px 0;
+            position: relative; 
+            align-items: center;
+            display: flex; justify-content: center; 
+            margin-top: 30%; flex-direction: column;
         }
         .anuncio p{
           text-transform: uppercase;
             font-size: 20px;
-            color: #000000;
+            color: #ffc107;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             letter-spacing: 0.2rem;
             font-weight: 700;
@@ -147,6 +190,9 @@ main {
 
         }
         .botao{
+            border: solid 2px #ffc107;
+            border-radius: 10px;
+            background-image: linear-gradient(to right, #f9d423 0%, #a07501 100%);
             background-color: #ffc107;
             color: black;
             font-weight: 500;
@@ -156,6 +202,7 @@ main {
             cursor: pointer;
             font-size: 13px;
         }
+
         .card-image{
           display: none;
         }
@@ -190,7 +237,7 @@ main {
           padding: 12px;
 
         }
-
+        /* contato*/
         .section-header {
           display: flex;
           align-items: center;
@@ -257,6 +304,11 @@ main {
 color: #fffefe;
 border: solid 2px #000000;
 }
+
+.botao:hover{
+  color: #fffefe;
+  border: solid 2px #000000;
+  }
 
 /* CONTATO */
 #contact {
@@ -549,5 +601,20 @@ hr {
   background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
  background-blend-mode: screen;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* footer*/
