@@ -32,7 +32,7 @@ $(document).ready(function(){
 
   $(document).ready(function(){
     $('.slider').slider({
-      height:550 ,
+      height:600 ,
       duration: 700
     });
   });
