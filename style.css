@@ -173,11 +173,10 @@ main {
             border-radius: 10px;  
             background: rgba(59, 59, 59, 0.328);  
             text-align: center;  
-            padding: 10px 0;
+            padding: 10px 0 0 0;
             position: relative; 
-            align-items: center;
             display: flex; justify-content: center; 
-            margin-top: 30%; flex-direction: column;
+            margin-top: 50%; flex-direction: column;
         }
         .anuncio p{
           text-transform: uppercase;
@@ -194,11 +193,11 @@ main {
             border-radius: 10px;
             background-image: linear-gradient(to right, #f9d423 0%, #a07501 100%);
             background-color: #ffc107;
-            color: black;
+            color: rgb(255, 255, 255);
             font-weight: 500;
             border-radius: 5px;
             padding: 8px 15px;
-            margin: 15px 0 5px 0;
+            margin: 15px 0 0 0;
             cursor: pointer;
             font-size: 13px;
         }
