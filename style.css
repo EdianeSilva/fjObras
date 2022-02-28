@@ -20,20 +20,20 @@ main {
   flex: 1 0 auto;
 }
 .sidenav{
-    /* From https://css.glass */
-    background: rgba(7, 7, 7, 0.2);
-    border-radius: 0 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(45px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    
-    }
-    .nav-wrapper li a{
-      font-size: 1.3em;
-      font-weight: 500;
-    }
-    /* Telas maiores que 800px */
+  /* From https://css.glass */
+  background: rgba(7, 7, 7, 0.2);
+  border-radius: 0 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(45px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  
+  }
+  .nav-wrapper li a{
+    font-size: 1.3em;
+    font-weight: 500;
+  }
+  /* Telas maiores que 800px */
     @media (min-width: 800px) {
 
         .logo {
@@ -41,22 +41,10 @@ main {
         }
 
          /*main*/
-         .main{
-          height: 680px;
-          background-image: url('https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
-          background-size: cover;
-          align-items: center;
-         }
-        
         .anuncio{ 
-            width: 50%;
+            margin: 15% 0 0 0;
             border-radius: 10px;  
-            background: rgba(0, 0, 0, 0.5);  
-            text-align: center; 
-            padding: 15px 0 0 0;            
-            display: flex; 
-            justify-content: center; 
-            flex-direction: column;
+            background: rgba(0, 0, 0, 0.5); 
         }
         .anuncio p{
           text-transform: uppercase;
@@ -103,7 +91,7 @@ main {
           align-items: center;
           justify-content: center;
           font-size:40px;
-          color:#000000 ;
+          color:#ffffff ;
           font-weight: 600;
           margin: 30px 0;
 
@@ -127,24 +115,14 @@ main {
           width: 250px;
 
         }
-
+        .parallax-container {
+          height: 300px;
+        }
           /*main*/
-          .main{
-            height: 500px;
-            background-image: url('https://cdn.pixabay.com/photo/2017/08/27/10/16/interior-2685521_960_720.jpg');
-            background-size: cover;
-          }
-
-        .anuncio{ 
-            width: 90%;
+          .anuncio{ 
+            margin: 30% 0 0 0;
             border-radius: 10px;  
-            background: rgba(0, 0, 0, 0.328);  
-            text-align: center;  
-            padding: 10px 0 0 0;
-            position: relative; 
-            display: flex; 
-            justify-content: center; 
-            flex-direction: column;
+            background: rgba(0, 0, 0, 0.5); 
         }
         .anuncio p{
           text-transform: uppercase;
@@ -154,20 +132,19 @@ main {
             letter-spacing: 0.2rem;
             font-weight: 700;
 
-
         }
         .botao{
-            border: solid 2px #ffc107;
-            border-radius: 10px;
-            background-image: linear-gradient(to right, #f9d423 0%, #a07501 100%);
-            background-color: #ffc107;
-            color: rgb(0, 0, 0);
-            font-weight: 500;
-            border-radius: 5px;
-            padding: 8px 15px;
-            margin: 15px 0 0 0;
-            cursor: pointer;
-            font-size: 13px;
+          border: solid 2px #ffc107;
+          border-radius: 10px;
+          background-image: linear-gradient(to right, #f9d423 0%, #a07501 100%);
+          background-color: #ffc107;
+          color: rgb(0, 0, 0);
+          font-weight: 500;
+          border-radius: 5px;
+          padding: 8px 15px;
+          margin: 15px 0 0 0;
+          cursor: pointer;
+          font-size: 13px;
         }
 
         .card-image{
@@ -198,7 +175,7 @@ main {
           align-items: center;
           justify-content: center;
           font-size:30px;
-          color:#000000 ;
+          color:#ffffff ;
           font-weight: 600;
           margin: 30px;
           padding: 12px;
@@ -218,17 +195,10 @@ main {
       }
 .slider{
   display: flex;
-  padding: 5%;
 }
 
 .menu:hover{
     color: #ffc107;
-}
-.main{
-    display: flex;  
-    justify-content: center;
-    align-items: center;
-    margin: 0;
 }
 
 .horizontal{
@@ -238,12 +208,13 @@ main {
 
 .btn-floating-avcb{
   background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+
 }
 
 /* serviços*/
 
 .icon-block{
-  border: solid 2px #ffc107;
+  border: solid 2px #a07501;
   border-radius: 15px;
   margin: 10px;
   padding: 15px;
@@ -258,11 +229,6 @@ main {
 }
 
 
-.slin{
-  background-color: #ffffff71;
-  padding: 10px;
-  letter-spacing: 1px;
-}
 
 .btn-orcamento a {
   border: solid 2px #ffc107;
@@ -555,11 +521,23 @@ hr {
   align-items: center;
   margin: 20px;
 }
-.btn-avcb{
-  color: #ffffff;
-background-color: #f57f17;
- background-blend-mode: screen;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

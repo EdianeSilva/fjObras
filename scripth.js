@@ -32,7 +32,7 @@ $(document).ready(function(){
 
   $(document).ready(function(){
     $('.slider').slider({
-      height:600 ,
+      height:650 ,
       duration: 700
     });
   });
@@ -59,3 +59,22 @@ $(document).ready(function(){
   $(document).ready(function(){
     $('.fixed-action-btn').floatingActionButton();
   });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
