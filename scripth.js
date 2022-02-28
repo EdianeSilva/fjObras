@@ -32,8 +32,8 @@ $(document).ready(function(){
 
   $(document).ready(function(){
     $('.slider').slider({
-      height:650 ,
-      duration: 700
+      height:560 ,
+      duration: 600
     });
   });
 
