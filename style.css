@@ -387,10 +387,11 @@ hr {
 /* Midias sociais*/
 .midias{
   margin-top: 40px;
+
 }
 .social-icons
 {
-  text-align:right
+  text-align:center
 }
 .social-icons a
 {
@@ -411,8 +412,11 @@ hr {
 }
 .social-icons li
 {
-  display:inline-block;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
   margin-bottom:4px
+  
 }
 
 .social-icons a{
@@ -448,14 +452,7 @@ hr {
 {
   background-color:#3b5998
 }
-.social-icons a.twitter:hover
-{
-  background-color:#00aced
-}
-.social-icons a.linkedin:hover
-{
-  background-color:#007bb6
-}
+
 .social-icons a.whatsapp:hover
 {
   background-color:#018316
