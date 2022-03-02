@@ -215,6 +215,7 @@ body{
 
 .titulos-slider{
   font-weight: 400;
+  font-size: 25px;
 }
 
 .menu:hover{
@@ -277,7 +278,7 @@ background-image: linear-gradient(to right, #dfa404 0%, #a07501 100%);
 .contact-wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
 
   padding: 20px;
   position: relative;
@@ -340,49 +341,6 @@ textarea {
   max-width: 400px;
 }
 
-/* Location, Phone, Email Section */
-.icon{
-  color: #000000;
-}
-.contact-list {
-  list-style-type: none;
-  margin-left: -30px;
-  padding-right: 20px;
-}
-
-.list-item {
-  line-height: 4;
-  color: rgb(0, 0, 0);
-}
-
-.contact-text {
-  font: 300 18px 'Lato', sans-serif;
-  letter-spacing: 1.9px;
-  color: rgb(0, 0, 0);
-}
-
-.place {
-  margin-left: 10px;
-}
-
-.phone {
-  margin-left: 10px;
-}
-
-.gmail {
-  margin-left: 10px;
-}
-
-.contact-text a {
-  color: rgb(34, 34, 34);
-  text-decoration: none;
-  transition-duration: 0.2s;
-}
-
-.contact-text a:hover {
-  color: rgb(145, 89, 0);
-  text-decoration: none;
-}
 
 hr {
   border-color: rgba(255,255,255,.6);
@@ -416,29 +374,7 @@ hr {
     margin: 0 auto;
   }
  
-  
-  .name, .email, textarea {
-    width: 280px;
-  } 
-  
-  .direct-contact-container {
-    margin-top: 60px;
-    max-width: 280px;
-  }  
-  .social-media-list {
-    left: 0;
-  }
-  .social-media-list li {
-    height: 55px;
-    width: 55px;
-    line-height: 55px;
-    font-size: 2rem;
-  }
-  .social-media-list li:after {
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
-  }
+
   
 }
 
@@ -523,6 +459,14 @@ hr {
 .social-icons a.whatsapp:hover
 {
   background-color:#018316
+}
+.social-icons a.email:hover
+{
+  background-color:#ee0c0c
+}
+.social-icons a.phone:hover
+{
+  background-color:#d8a707
 }
 
 .consideracoes{
