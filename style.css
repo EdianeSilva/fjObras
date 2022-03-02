@@ -16,9 +16,14 @@ body{
   flex-direction: column;
 }
 
-main {
-  flex: 1 0 auto;
+.hamburger{
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  color: #fff;
 }
+.menu-btn{
+  color: #ffab00;
+}
+
 .sidenav{
   /* From https://css.glass */
   background: rgba(7, 7, 7, 0.2);
@@ -42,11 +47,14 @@ main {
           width: 280px;
         }
         
+        #mobile-links{
+          display: none;
+        }
          /*main*/
         .anuncio{ 
             margin: 15% 0 0 0;
             border-radius: 10px;  
-            background: rgba(0, 0, 0, 0.5); 
+            background: rgba(0, 0, 0, 0.287); 
         }
         .anuncio p{
           font-family: 'Poppins', sans-serif;
@@ -116,6 +124,9 @@ main {
           width: 250px;
 
         }
+        #icone-whatsapp{
+          display: none;
+        }
         .slider .slides li img {
           height: 90%;
           width: 100%;
@@ -129,7 +140,7 @@ main {
           .anuncio{ 
             margin: 30% 0 0 0;
             border-radius: 10px;  
-            background: rgba(0, 0, 0, 0.5); 
+            background: rgba(0, 0, 0, 0.287); 
         }
         .anuncio p{
             font-family: 'Poppins', sans-serif;
@@ -237,7 +248,9 @@ main {
   font-weight: 400;
 }
 
-
+.btn-orcamento{
+  margin: 30px 0;
+}
 
 .btn-orcamento a {
   color:#ffffff;
