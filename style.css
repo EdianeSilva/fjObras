@@ -51,7 +51,7 @@ main {
         .anuncio p{
           font-family: 'Poppins', sans-serif;
             text-transform: uppercase;
-            font-size: 35px;
+            font-size: 40px;
             font-weight: 700;
         }
         .botao{
@@ -134,7 +134,7 @@ main {
         .anuncio p{
             font-family: 'Poppins', sans-serif;
             text-transform: uppercase;
-            font-size: 25px;
+            font-size: 30px;
             letter-spacing: 0.2rem;
             font-weight: 700;
 
