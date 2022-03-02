@@ -49,10 +49,9 @@ main {
             background: rgba(0, 0, 0, 0.5); 
         }
         .anuncio p{
-            font-family: 'Dancing Script', cursive;
             text-transform: uppercase;
             font-size: 30px;
-            font-weight: 500;
+            font-weight: 700;
         }
         .botao{
             border: solid 2px #ffc107;
@@ -132,7 +131,6 @@ main {
             background: rgba(0, 0, 0, 0.5); 
         }
         .anuncio p{
-            font-family: 'Dancing Script', cursive;
             text-transform: uppercase;
             font-size: 20px;
             letter-spacing: 0.2rem;
@@ -203,13 +201,17 @@ main {
   display: flex;
 }
 
+.titulos-slider{
+  font-weight: 700;
+}
+
 .menu:hover{
     color: #ffc107;
 }
 
 .horizontal{
   font-weight: 500;
-  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  background-image: linear-gradient(to right, #000000fb 0%, rgba(20, 20, 20, 0.911) 100%);
 }
 
 .btn-floating-avcb{
