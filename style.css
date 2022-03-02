@@ -49,11 +49,10 @@ main {
             background: rgba(0, 0, 0, 0.5); 
         }
         .anuncio p{
-          text-transform: uppercase;
+            font-family: 'Dancing Script', cursive;
+            text-transform: uppercase;
             font-size: 30px;
             font-weight: 500;
-            color: #ffc107;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
         .botao{
             border: solid 2px #ffc107;
@@ -73,7 +72,7 @@ main {
           justify-content: center;
           align-items: center;
           font-size:40px;
-          color:#eeeeee;
+          color:grey;
           font-weight: 600;
           padding: 0 10px 10px 10px;
         }
@@ -83,7 +82,7 @@ main {
           justify-content: center;
           align-items: center;
           font-size:40px;
-          color:#ffffff ;
+          color:gray ;
           font-weight: 600;
           padding: 0 10px 10px 10px;
         }
@@ -93,7 +92,7 @@ main {
           align-items: center;
           justify-content: center;
           font-size:40px;
-          color:#ffffff ;
+          color:gray;
           font-weight: 600;
           margin: 30px 0;
 
@@ -124,7 +123,7 @@ main {
           background-position: center;
       }
         .parallax-container {
-          height: 300px;
+          height: 400px;
         }
           /*main*/
           .anuncio{ 
@@ -133,10 +132,9 @@ main {
             background: rgba(0, 0, 0, 0.5); 
         }
         .anuncio p{
-          text-transform: uppercase;
+            font-family: 'Dancing Script', cursive;
+            text-transform: uppercase;
             font-size: 20px;
-            color: #ffc107;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             letter-spacing: 0.2rem;
             font-weight: 700;
 
@@ -164,7 +162,7 @@ main {
           justify-content: center;
           align-items: center;
           font-size:30px;
-          color: #eeeeee ;
+          color: gray;
           font-weight: 500;
           padding: 0 10px 10px 10px;
         }
@@ -173,7 +171,7 @@ main {
           justify-content: center;
           align-items: center;
           font-size:30px;
-          color: #ffffff ;
+          color: gray ;
           font-weight: 500;
           padding: 0 10px 5px 10px;
         }
@@ -183,7 +181,7 @@ main {
           align-items: center;
           justify-content: center;
           font-size:30px;
-          color:#ffffff ;
+          color:gray;
           font-weight: 600;
           margin: 30px;
           padding: 12px;
@@ -222,8 +220,7 @@ main {
 /* serviços*/
 
 .icon-block{
-  border: solid 2px #a07501;
-  border-radius: 15px;
+  border-radius: 10px;
   margin: 10px;
   padding: 15px;
   background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
@@ -239,15 +236,14 @@ main {
 
 
 .btn-orcamento a {
-  border: solid 2px #ffc107;
-  color:#000000;
+  color:#ffffff;
   padding: 20px;
   border-radius: 10px;
-  background-image: linear-gradient(to right, #f9d423 0%, #a07501 100%);
+  background-image: linear-gradient(to right, #8a7302 0%, #dfa404 100%);
 }
 .btn-orcamento a:hover{
-color: #fffefe;
-border: solid 2px #000000;
+color: #000000;
+background-image: linear-gradient(to right, #dfa404 0%, #a07501 100%);
 }
 
 .botao:hover{
@@ -273,14 +269,13 @@ border: solid 2px #000000;
   position: relative;
   max-width: 840px;
   background-image: linear-gradient(to top, #c4c5c7ca 0%, #dcdddfa8 52%, #ebebeb 100%);
-  border: solid 3px #adadad;
   margin-bottom: 30px;
   border-radius: 20px;
 }
 
 /* Left contact page */
 .placeholder{
-  color: red;
+  color: rgb(3, 3, 3);
 }
 .form-horizontal {
   /*float: left;*/
@@ -305,6 +300,10 @@ textarea {
   color: #ffffff;
   background: #000000;
   border-radius: 0  0 8px 8px;
+}
+
+.send-button:hover{
+  background-color: #000000;
 }
 
 .alt-send-button {
@@ -539,27 +538,11 @@ hr {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* footer*/
+.responsaveis{
+  letter-spacing: 1px;
+}
+
+.desenvolvedor{
+  font-family: 'Dancing Script', cursive;
+}
