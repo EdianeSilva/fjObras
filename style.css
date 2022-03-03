@@ -88,6 +88,8 @@ body{
           color:grey;
           font-weight: 600;
           padding: 0 10px 10px 10px;
+          margin-top: 50px;
+          margin-bottom: 50px;
         }
         /*projetos*/
         .projetos-titulo{
@@ -107,7 +109,7 @@ body{
           font-size:40px;
           color:gray;
           font-weight: 600;
-          margin: 30px 0;
+          margin: 50px 0;
 
         }
         /* contato*/
@@ -118,7 +120,7 @@ body{
           font-size:40px;
           color:#000000 ;
           font-weight: 600;
-          margin: 30px 0;
+          margin: 50px 0;
         }
       }
 
@@ -272,8 +274,10 @@ background-image: linear-gradient(to right, #dfa404 0%, #a07501 100%);
   }
 
 /* CONTATO */
+.contato{
+margin: 30px 0;
+}
 #contact {
-  border-radius: 20px;
   padding: 3px;
   margin: 10px;
 }
@@ -282,12 +286,10 @@ background-image: linear-gradient(to right, #dfa404 0%, #a07501 100%);
   display: flex;
   flex-direction: row;
   justify-content: center;
-
   padding: 20px;
   position: relative;
   max-width: 840px;
-  background-image: linear-gradient(to top, #c4c5c7ca 0%, #dcdddfa8 52%, #ebebeb 100%);
-
+  background-image: linear-gradient(to top, #919192ca 0%, #a0a1a3a8 52%, #696767 100%);
   border-radius: 20px;
 }
 
@@ -423,9 +425,7 @@ hr {
 }
 
 .social-icons a{
-  background-color: #e4e4e1ab;
-  background-image: radial-gradient(at top center, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0.03) 100%), linear-gradient(to top, rgba(255,255,255,0.1) 0%, rgba(143,152,157,0.60) 100%);
-    background-blend-mode: normal, multiply;
+  background-color: #ffffffc2;
   color:#000000;
   font-size:20px;
   display:inline-block;
@@ -466,7 +466,7 @@ hr {
 }
 .social-icons a.phone:hover
 {
-  background-color:#d8a707
+  background-color:#04adfc
 }
 
 .consideracoes{
@@ -497,8 +497,13 @@ hr {
 
 
 /* footer*/
-.responsaveis{
-  letter-spacing: 1px;
+.footer-texto{
+  font-family: 'Fredoka', sans-serif;
+  font-size: 15px;
+}
+.footer-texto li{
+  font-family: 'Fredoka', sans-serif;
+  font-size: 15px;
 }
 
 .desenvolvedor{
