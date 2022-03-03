@@ -24,28 +24,32 @@
         <div class="container">
           <div class="nav-wrapper">
             <img src="logo - Copia.jpg" alt=""class="responsive-img logo brand-logo">
-            <a href="#" data-target="mobile-links" class="sidenav-trigger right">
-            <i class="material-icons">menu</i></a>
+            <a data-target="mobile-links"  class="sidenav-trigger right">
+             <!-- Dropdown Trigger -->
+            <a class='dropdown-trigger black' data-target='dropdown'><i class=" material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
                 <li><a class="menu" href="index.html">Home</a></li>
                 <li><a class="menu" href="#sobre">Sobre</a></li>
-                <li><a class="menu" href="avcb.html">AVCB</a></li>
-                <li><a class="menu" href="index.html">Serviços</a></li>
-                <li><a class="menu" href="index.html">Contato</a></li>
+                <li><a class="menu" href="#avcb">AVCB</a></li>
+                <li><a class="menu" href="#servicos">Serviços</a></li>
+                <li><a class="menu" href="#contato">Contato</a></li>
             </ul>
           </div>
         </div>
       </nav>
     </div>
-    <!--- Menu mobile -->
-    <ul class="sidenav center-align" id="mobile-links">
-        <br><br><br><br>
-      <li><a class="text white-text"  href="index.html">Home</a></li>
-      <li><a class="text white-text"  href="#sobre">Sobre</a></li>
-      <li><a class="text white-text"  href="avcb.html">AVCB</a></li>
-      <li><a class="text white-text"  href="index.html">Serviços</a></li>
-      <li><a class="text white-text"  href="index.html">Contato</a></li>
-    </ul>
+  <!-- Dropdown Structure -->
+  <ul id='dropdown' class='dropdown-content'>
+    <li><a class="amber-text center "  href="index.html">Home</a></li>
+    <li class="divider" tabindex="-1"></li>
+    <li><a class="amber-text center"  href="#sobre">Sobre</a></li>
+    <li class="divider" tabindex="-1"></li>
+    <li><a class="amber-text center"  href="#avcb">AVCB</a></li>
+    <li class="divider" tabindex="-1"></li>
+    <li><a class="amber-text center"  href="#servicos">Serviços</a></li>
+    <li class="divider" tabindex="-1"></li>
+    <li><a class="amber-text center"  href="#contato">Contato</a></li>
+  </ul>
   </header>
 
   <!--- Main-->

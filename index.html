@@ -18,38 +18,38 @@
 <body>  
 <!-- menu Sidenav-->
 <header class="menu-principal">
-    <div class="navbar-fixed">
-      <nav class="black">
-        <div class="container">
-          <div class="nav-wrapper">
-            <img src="logo - Copia.jpg" alt=""class="responsive-img logo brand-logo">
-            <ul class="right hide-on-med-and-down">
-                <li><a class="menu" href="#home">Home</a></li>
-                <li><a class="menu" href="#sobre">Sobre</a></li>
-                <li><a class="menu" href="#avcb">AVCB</a></li>
-                <li><a class="menu" href="#servicos">Serviços</a></li>
-                <li><a class="menu" href="#contato">Contato</a></li>
-            </ul>
-          </div>
+  <div class="navbar-fixed">
+    <nav class="black">
+      <div class="container">
+        <div class="nav-wrapper">
+          <img src="logo - Copia.jpg" alt=""class="responsive-img logo brand-logo">
+          <a href="#" data-target="mobile-links"  class="sidenav-trigger right">
+           <!-- Dropdown Trigger -->
+          <a class='dropdown-trigger black' data-target='dropdown'><i class="Large material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+              <li><a class="menu" href="#home">Home</a></li>
+              <li><a class="menu" href="#sobre">Sobre</a></li>
+              <li><a class="menu" href="#avcb">AVCB</a></li>
+              <li><a class="menu" href="#servicos">Serviços</a></li>
+              <li><a class="menu" href="#contato">Contato</a></li>
+          </ul>
         </div>
-      </nav>
-    </div>
-    <!--- Menu mobile -->
-    <div class="fixed-action-btn " id="mobile-links">
-      <a class="btn-floating btn-large hamburger">
-        <i class="large material-icons">menu</i>
-      </a>
-      <ul>
-        <li style="text-shadow: 2px 2px 2px rgb(51, 51, 51, 0.726); font-weight: 700;"><a class=" menu-btn " href="#home">HOME</a></li>
-        <li style="text-shadow: 2px 2px 2px rgb(51, 51, 51, 0.726); font-weight: 700;"><a class=" menu-btn " href="#sobre">SOBRE</a></li>
-        <li style="text-shadow: 2px 2px 2px rgb(51, 51, 51, 0.726); font-weight: 700;"><a class=" menu-btn " href="#avcb">AVCB</a></li>
-        <li style="text-shadow: 2px 2px 2px rgb(51, 51, 51, 0.726); font-weight: 700;"><a class=" menu-btn " href="#servicos">SERVIÇOS</a></li>
-        <li style="text-shadow: 2px 2px 2px rgba(51, 51, 51, 0.726); font-weight: 700;"><a class=" menu-btn " href="#contato">CONTATO</a></li>
-        <li><a style="background-color: rgba(0, 0, 0, 0.185);"  href="https://api.whatsapp.com/send?phone=5511947268843" class="btn-floating"><i class="small fa fa-whatsapp green-text"></i></a></li>
-      </ul>
-    </div>
-
-  </header>
+      </div>
+    </nav>
+  </div>
+<!-- Dropdown Structure -->
+<ul id='dropdown' class='dropdown-content'>
+  <li><a class="amber-text center "  href="#home">Home</a></li>
+  <li class="divider" tabindex="-1"></li>
+  <li><a class="amber-text center"  href="#sobre">Sobre</a></li>
+  <li class="divider" tabindex="-1"></li>
+  <li><a class="amber-text center"  href="#avcb">AVCB</a></li>
+  <li class="divider" tabindex="-1"></li>
+  <li><a class="amber-text center"  href="#servicos">Serviços</a></li>
+  <li class="divider" tabindex="-1"></li>
+  <li><a class="amber-text center"  href="#contato">Contato</a></li>
+</ul>
+</header>
   
   <!--- Main-->
 <section class="main" id="home">
@@ -222,7 +222,7 @@
 </section>
 <!-- BTN FLOATING -->
 <div class="fixed-action-btn" id="icone-whatsapp">
-  <a href="https://api.whatsapp.com/send?phone=5511947268843" class="btn-floating btn-large green">
+  <a href="https://api.whatsapp.com/send?phone=5511947268843" class="btn-floating btn-large green pulse">
     <i class="large fa fa-whatsapp"></i>
   </a>
 </div> 

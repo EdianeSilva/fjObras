@@ -20,20 +20,25 @@ body{
   background-image: linear-gradient(60deg, #0a0a0a 0%, #2e2b2b 100%);
   color: #fff;
 }
-.menu-btn{
-  color: #ffab00;
-}
 
-.sidenav{
+.hamburger2{
+ margin-bottom: 5%;
+  color: #fff;
+}
+.dropdown-content{
   /* From https://css.glass */
   background: rgba(7, 7, 7, 0.2);
-  border-radius: 0 16px;
+  border-radius: 0 0 16px 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(45px);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
-  
-  }
+}
+
+.menu-btn{
+  color: #ffab00;
+}
+
   .nav-wrapper li a{
     font-size: 1.3em;
     font-weight: 500;
@@ -47,7 +52,7 @@ body{
           width: 280px;
         }
         
-        #mobile-links{
+        .dropdown-trigger{
           display: none;
         }
          /*main*/
@@ -124,9 +129,7 @@ body{
           width: 250px;
 
         }
-        #icone-whatsapp{
-          display: none;
-        }
+
         .slider .slides li img {
           height: 90%;
           width: 100%;
