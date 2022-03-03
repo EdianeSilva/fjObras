@@ -323,7 +323,7 @@ background-size: cover;
 .form-horizontal {
   /*float: left;*/
   padding-top: 10px;
-  max-width: 350px;
+  max-width: 300px;
   font-weight: 400;
 }
  input{
@@ -331,7 +331,7 @@ background-size: cover;
  }
 .form-control, 
 textarea {
-  max-width: 500px;
+  max-width: 300px;
   color: rgb(255, 255, 255);
   letter-spacing: 1px;
   border-bottom: 1px solid #9e9e9e;
@@ -340,7 +340,7 @@ textarea {
 .send-button {
   margin-top: 15px;
   height: 34px;
-  width: 350px;
+  width: 300px;
   overflow: hidden;
   transition: all .2s ease-in-out;
   color: #ffffff;
