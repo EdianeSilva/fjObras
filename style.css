@@ -507,6 +507,11 @@ hr {
   background-color:#3b5998
 }
 
+.social-icons a.instagram:hover
+{
+  background-color:#db52e7
+}
+
 .social-icons a.whatsapp:hover
 {
   background-color:#018316
