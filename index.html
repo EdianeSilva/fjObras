@@ -11,7 +11,6 @@
     <!--Font awesome - icones-->
     <script src="https://kit.fontawesome.com/d65abf7a39.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="scripth.js" defer></script>
     <link rel="icon" href="fav-icon.png" type="icon" />
     <title>FJ engenharia</title>
 </head>
@@ -54,7 +53,7 @@
   <!--- Main-->
 <section class="main" id="home">
   <div style="background-color: black;" class="slider">
-    <ul class="slides">
+    <ul class="slides ">
       <li>
         <img src="ing-casa-anuncio.jpg"> <!-- random image -->
         <div class="caption center-align">
@@ -100,7 +99,7 @@
         <img src="house.jpg"> <!-- random image -->
         <div class="slin caption left-align white-text">
           <h3 class="light-texto white-text titulos-slider">FINANCIAMENTOS</h3>
-          <h5 class="titulos-slider white-text">Reformar ou construir</h5>
+          <h5 class="titulos-slider2 white-text">Reformar ou construir</h5>
         </div>
       </li>
       <li>
@@ -118,7 +117,6 @@
     </ul>
   </div>
 </section>
-
       <!--- second main financiamento -->
 <div style="background-color: black;" class="fundo">
   <div class="container col s12 m7 offset-l3">
@@ -205,8 +203,8 @@
 </ul>
 </div>
 </section>
-<section class="pq-escolher-fj">
-  <h1 class="porque">Por que nos escolher ?</h1>
+<section class="pq-escolher-fj center-align">
+  <h1 class="porque">Por que nos escolher?</h1>
 <ul class="ul-circles">
     <li style="--accent-color:#D3302C"><i class="material-icons">euro_symbol</i></i>Orçamento justo</li>
     <li style="--accent-color:#F3A22D"><i class="material-icons">photo_filter</i>Entrega no prazo</li>
@@ -274,7 +272,7 @@
   <div class="footer-copyright grey darken-4">
     <div class="container grey-text center">
     <p> © 2022 FJ engenharia - Todos os direitos reservados.</p>
-    <p class="grey-text ">desenvolvido por <a class="desenvolvedor white-text" href="#"> Anne Silva</a></p>
+    <p class="grey-text ">desenvolvido por <a class="desenvolvedor white-text" href="#"> Ediane Silva</a></p>
     </div>
   </div>
 </footer>
@@ -283,10 +281,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Materialize JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
+<script src="scripth.js" defer></script>
 <script>
-      //parallax
-      document.addEventListener('DOMContentLoaded', function() {
+        //parallax
+        document.addEventListener('DOMContentLoaded', function() {
         var elems = document.querySelectorAll('.parallax');
         var instances = M.Parallax.init(elems, options);
       });
@@ -298,19 +296,6 @@
       });
 
       var instance = M.Parallax.getInstance(elem);
-</script>
-<script>
-          // colapsible
-    document.addEventListener('DOMContentLoaded', function() {
-      var elems = document.querySelectorAll('.collapsible');
-      var instances = M.Collapsible.init(elems, options);
-    });
-
-    // Or with jQuery
-
-    $(document).ready(function(){
-      $('.collapsible').collapsible();
-    });
 </script>
 
 </html>
